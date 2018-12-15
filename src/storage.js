@@ -33,6 +33,7 @@ export default class Storage {
       // delete this._mapPromise;
     });
   }
+  getAllKeys() {}
   getItem(key) {
     return this._s
       ? this.isPromise
